@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>830</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #F9F9F9</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="employeeButton">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>730</y>
+      <width>231</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background: #81C4FF; border-radius: 24px; color: #e6f6ff; font-size: 14pt; font-weight: bold;} 
+QPushButton:hover{background: #e6f6ff; border-radius: 24px; color: #81C4FF; font-size: 14pt; font-weight: bold;}</string>
+    </property>
+    <property name="text">
+     <string>Сотрудникам</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-20</y>
+      <width>801</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #deefb7</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QGroupBox" name="groupBox_1">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>580</y>
+       <width>301</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: #F9F9F9;
+border-radius: 20px;
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QPushButton" name="signUpButton">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>301</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{background: #FFFFFF; border-radius: 20px; border: 0.2px solid #b9de6f; color: #b9de6f; font-size: 16pt; font-weight: bold;}
+QPushButton:hover{background: #b9de6f; border-radius: 20px; color: #FFFFFF; font-size: 16pt; font-weight: bold;}</string>
+      </property>
+      <property name="text">
+       <string>Стать клиентом</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>200</y>
+       <width>301</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: #F9F9F9;
+border-radius: 20px;
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QPushButton" name="createCardButton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>261</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{background: #b9de6f; border-radius: 20px; border: 0.2px solid #d7eba9; color: #ffffff; font-size: 14pt; font-weight: bold;}
+																				QPushButton:hover{background: #d2e9a0; border-radius: 20px; color: #FFFFFF; font-size: 14pt; font-weight: bold;}</string>
+      </property>
+      <property name="text">
+       <string>Оформить 
+банковскую карту</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="createAccountButton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>150</y>
+        <width>261</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{background: #b9de6f; border-radius: 20px; border: 0.2px solid #d7eba9; color: #ffffff; font-size: 14pt; font-weight: bold;}
+																				QPushButton:hover{background: #d2e9a0; border-radius: 20px; color: #FFFFFF; font-size: 14pt; font-weight: bold;}</string>
+      </property>
+      <property name="text">
+       <string>Вклады</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="createCreditRequestButton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>250</y>
+        <width>261</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{background: #b9de6f; border-radius: 20px; border: 0.2px solid #d7eba9; color: #ffffff; font-size: 14pt; font-weight: bold;}
+																				QPushButton:hover{background: #d2e9a0; border-radius: 20px; color: #FFFFFF; font-size: 14pt; font-weight: bold;}</string>
+      </property>
+      <property name="text">
+       <string>Кредитование</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="createInvestButton">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>350</y>
+        <width>261</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{background: #b9de6f; border-radius: 20px; border: 0.2px solid #d7eba9; color: #ffffff; font-size: 14pt; font-weight: bold;}
+																				QPushButton:hover{background: #d2e9a0; border-radius: 20px; color: #FFFFFF; font-size: 14pt; font-weight: bold;}</string>
+      </property>
+      <property name="text">
+       <string>Инвестиции</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>90</y>
+       <width>301</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: #F9F9F9;
+border-radius: 20px;
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>350</y>
+        <width>261</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{background: #b9de6f; border-radius: 20px; border: 0.2px solid #d7eba9; color: #ffffff; font-size: 14pt; font-weight: bold;}
+																				QPushButton:hover{background: #d2e9a0; border-radius: 20px; color: #FFFFFF; font-size: 14pt; font-weight: bold;}</string>
+      </property>
+      <property name="text">
+       <string>Снять деньги
+с вклада</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>261</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{background: #b9de6f; border-radius: 20px; border: 0.2px solid #d7eba9; color: #ffffff; font-size: 14pt; font-weight: bold;}
+																				QPushButton:hover{background: #d2e9a0; border-radius: 20px; color: #FFFFFF; font-size: 14pt; font-weight: bold;}</string>
+      </property>
+      <property name="text">
+       <string>Снять/положить
+деньги на карту</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_14">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>250</y>
+        <width>261</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{background: #b9de6f; border-radius: 20px; border: 0.2px solid #d7eba9; color: #ffffff; font-size: 14pt; font-weight: bold;}
+																				QPushButton:hover{background: #d2e9a0; border-radius: 20px; color: #FFFFFF; font-size: 14pt; font-weight: bold;}</string>
+      </property>
+      <property name="text">
+       <string>Заплатить
+за кредит</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_15">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>150</y>
+        <width>261</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{background: #b9de6f; border-radius: 20px; border: 0.2px solid #d7eba9; color: #ffffff; font-size: 14pt; font-weight: bold;}
+																				QPushButton:hover{background: #d2e9a0; border-radius: 20px; color: #FFFFFF; font-size: 14pt; font-weight: bold;}</string>
+      </property>
+      <property name="text">
+       <string>Перевести деньги
+с карты на карту</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>60</y>
+       <width>301</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>CrossCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; font-weight:600; color:#81c4ff;&quot;&gt;Data&lt;/span&gt;&lt;span style=&quot; font-size:36pt; font-weight:600; color:#b9de6f;&quot;&gt;Bank&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>720</y>
+      <width>431</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ОАО &quot;Датабанк&quot;, Россия
+Контактный центр: 8 (951) 810-22-52
+Генеральный директор: Пылаев Ярослав Сергеевич</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
